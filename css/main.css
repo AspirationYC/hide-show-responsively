@@ -17,6 +17,7 @@ html {
 }
 
 img {
+  display: inline-block;
   width: 100%;
 }
 
@@ -31,8 +32,7 @@ img:nth-of-type(4) {
 @media only screen and (min-width: 25em) {
 
 img {
-  display: inline-block;
-  width: 50%
+  width: 49%;
   }
 
 img:nth-of-type(2) {
@@ -43,4 +43,22 @@ img:nth-of-type(4) {
   display: inline-block;
 }
 
+}
+
+@media only screen and (min-width: 38em) {
+
+  img {
+    width: 32.8%;
+  }
+
+  img:nth-of-type(1) {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 60em) {
+
+  img {
+    width: 25%;
+  }
 }
