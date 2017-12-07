@@ -31,17 +31,17 @@ img:nth-of-type(4) {
 
 @media only screen and (min-width: 25em) {
 
-img {
-  width: 49%;
+  img {
+    width: 49%;
   }
 
-img:nth-of-type(2) {
+  img:nth-of-type(2) {
   display: inline-block;
-}
+  }
 
-img:nth-of-type(4) {
+  img:nth-of-type(4) {
   display: inline-block;
-}
+  }
 
 }
 
@@ -59,6 +59,10 @@ img:nth-of-type(4) {
 @media only screen and (min-width: 60em) {
 
   img {
-    width: 25%;
+    width: 22%;
+  }
+
+  img:nth-of-type(1) {
+    display: inline-block;
   }
 }
